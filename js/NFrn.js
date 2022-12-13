@@ -1,0 +1,1 @@
+document.querySelectorAll(".slider").forEach(((e,i)=>{window[`slider${i+1}`]=new Swiper(e,{freeMode:!0,centeredSlides:!0,direction:"vertical",mousewheel:!0,slidesPerView:1.75,slidesOffsetBefore:-125})})),bindSwipers(slider1,slider2,slider3,slider4);
